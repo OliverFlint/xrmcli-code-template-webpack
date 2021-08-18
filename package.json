@@ -1,0 +1,22 @@
+{
+  "name": "xrmcli-code-template-webpack",
+  "version": "1.0.0",
+  "description": "A minimal code template for a typescript webresource project using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "build-dev": "npx webpack --config-name dev",
+    "build-prod": "npx webpack --config-name prod"
+  },
+  "keywords": [],
+  "author": "Oliver Flint <oliverflint@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/xrm": "^9.0.41",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
